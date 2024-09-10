@@ -2,9 +2,9 @@
 <suite name="Suite">
     <test name="Test">
         <classes>
-			<class name="TestNG.CapturePageScreenshot"/>
-            <class name="TestNG.CaptureElementScreenshot"/>
-            <class name="TestNG.CaptureFullPageScreenshot"/>
+            <class name="com.qa.Selenium.TestNG.LaunchChromeBrowser"/>
+            <class name="com.qa.Selenium.TestNG.LaunchEdgeBrowser"/>
+            <class name="com.qa.Selenium.TestNG.LaunchFirefoxBrowser"/>
         </classes>
     </test>
 </suite>
