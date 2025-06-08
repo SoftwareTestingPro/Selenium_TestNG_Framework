@@ -7,9 +7,9 @@ import org.testng.annotations.Test;
 public class LaunchFirefoxBrowser {
 
 	@Test
-	public void launchChromeBrowser() {
+	public void launchFirefoxBrowser() {
 		WebDriver driver = new FirefoxDriver();
-		driver.get("https://www.microsoft.com");
+		driver.get("https://softwaretestingpro.github.io/index.html");
 		driver.quit();
 	}
 }

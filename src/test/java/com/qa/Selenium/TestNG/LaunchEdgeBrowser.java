@@ -7,9 +7,9 @@ import org.testng.annotations.Test;
 public class LaunchEdgeBrowser {
 
 	@Test
-	public void launchChromeBrowser() {
+	public void launchEdgeBrowser() {
 		WebDriver driver = new EdgeDriver();
-		driver.get("https://www.microsoft.com");
+		driver.get("https://softwaretestingpro.github.io/index.html");
 		driver.quit();
 	}
 }

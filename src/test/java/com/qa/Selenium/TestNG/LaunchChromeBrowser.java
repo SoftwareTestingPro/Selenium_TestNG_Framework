@@ -9,7 +9,7 @@ public class LaunchChromeBrowser {
 	@Test
 	public void launchChromeBrowser() {
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://www.microsoft.com");
+		driver.get("https://softwaretestingpro.github.io/index.html");
 		driver.quit();
 	}
 }
